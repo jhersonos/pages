@@ -1,0 +1,165 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'source sans pro', sans-serif;
+}
+.yellow {
+  color: #f1c40f;
+}
+.wrapper {
+  width: 100%;
+}
+.wrapper header {
+  width: 100%;
+}
+.wrapper header .nav {
+  width: 100%;
+}
+.wrapper header .nav ul {
+  margin: 1rem 0;
+}
+.wrapper header .nav ul li {
+  list-style: none;
+}
+.wrapper header .nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+}
+.wrapper header .nav ul li a img {
+  width: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapper header .nav ul li a span {
+  color: #e74c3c;
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapper section {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+}
+.wrapper section.banner-back {
+  height: 25rem;
+  position: relative;
+  margin: 0;
+}
+.wrapper section.banner-back .background {
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+.wrapper section.banner-back .content {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+}
+.wrapper section.banner-back .content h1,
+.wrapper section.banner-back .content h4 {
+  padding-left: 3rem;
+  width: 580px;
+  margin-top: 0;
+  font-weight: 300;
+}
+.wrapper section.banner-back .content h1 {
+  padding-top: 2rem;
+  color: white;
+  font-size: 2.5rem;
+}
+.wrapper section.banner-back .content h1 strong {
+  font-weight: 600;
+}
+.wrapper section.banner-back .content h4 {
+  color: white;
+  font-size: 1rem;
+}
+.wrapper section.banner-back .content input[type=text] {
+  margin-left: 3rem;
+  border-radius: 5px;
+  border: 0;
+  height: 2rem;
+  width: 220px;
+}
+.wrapper section .head {
+  width: 100%;
+}
+.wrapper section .head i {
+  padding-left: 10%;
+  display: inline-block;
+  width: 20px;
+  color: #e74c3c;
+}
+.wrapper section .head h4 {
+  display: inline-block;
+  font-weight: 300;
+}
+.wrapper section .head h4.left {
+  padding-left: 11%;
+}
+.wrapper section .body {
+  width: 100%;
+  text-align: center;
+}
+.wrapper section .body .row {
+  display: inline-block;
+  width: 100%;
+}
+.wrapper section .body .row .item {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  margin: 1rem;
+  height: 300px;
+  vertical-align: top;
+}
+.wrapper section .body .row .item img {
+  width: 100%;
+  height: 190px;
+  cursor: pointer;
+}
+.wrapper section .body .row .item .data {
+  width: 100%;
+  text-align: left;
+}
+.wrapper section .body .row .item .data .title {
+  width: 100%;
+  text-align: center;
+}
+.wrapper section .body .row .item .data .desc {
+  width: 100%;
+  padding: .3rem;
+}
+.wrapper section .body .row .item .data .price {
+  width: 100%;
+  padding: .3rem;
+}
+.wrapper section.footer {
+  text-align: center;
+  background-color: #393130;
+  border: solid 1px #ebeaea;
+  height: 8rem;
+  margin: 0;
+}
+.wrapper section.footer img {
+  width: 2rem;
+  margin: 0;
+  padding-top: .5rem;
+  margin-bottom: .3rem;
+}
+.wrapper section.footer .content {
+  color: white;
+}
+.wrapper section.footer .element {
+  margin: .2rem 0;
+}
+.wrapper section.footer .element i {
+  margin: .5rem;
+  color: white;
+}
