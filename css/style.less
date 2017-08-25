@@ -6,6 +6,9 @@ html,body{
 .yellow{
 	color: #f1c40f;
 }
+.border{
+	border-bottom: 1px solid #c4c4c4;
+}
 .wrapper{
 	width: 100%;
 	header{
@@ -39,12 +42,22 @@ html,body{
 		height: auto;
 		margin: 2rem 0;
 		&.header{
-			h1{
-				font-weight: lighter;
-				padding-left: 8rem;
-				font-size: 2rem;
-				strong{
-					font-weight: bold;
+			.content{
+				width: 80%;
+				h1,h5{
+					padding-left: 8rem;
+					width: 580px;
+				}
+				h1{
+					font-weight: lighter;				
+					font-size: 2rem;
+					strong{
+						font-weight: bold;
+					}
+				}
+				h5{
+					font-size: 1.15rem;
+					font-weight: 100;
 				}
 			}
 		}
@@ -116,11 +129,30 @@ html,body{
 			}
 			h4{
 				display: inline-block;
-				font-weight: 300;
+				font-weight: 600;
 				&.left{
 					padding-left: 11%;
 				}
 			}
+		}
+		.bubbles{
+			width:100%;
+			text-align: center;
+			div{
+				font-weight: 100;
+				border-radius: 10px;
+				cursor: pointer;
+				background: white;
+				color:#e74c3c;
+				display: inline-block;
+				padding: .3rem 1rem;
+				margin: 0 .2rem; 
+				border: 1px solid #e74c3c;
+				&.active{
+					color:white;
+					background:  #e74c3c;
+				}
+			}			
 		}
 		.body{
 			width:100%;
@@ -173,6 +205,10 @@ html,body{
 			}
 			.content{
 				color:white;
+				.title{
+					width: 100%;
+					text-align: center;
+				}
 			}
 			.element{
 				margin: .2rem 0;

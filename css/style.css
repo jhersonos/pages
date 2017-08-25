@@ -7,6 +7,9 @@ body {
 .yellow {
   color: #f1c40f;
 }
+.border {
+  border-bottom: 1px solid #c4c4c4;
+}
 .wrapper {
   width: 100%;
 }
@@ -41,13 +44,24 @@ body {
   height: auto;
   margin: 2rem 0;
 }
-.wrapper section.header h1 {
-  font-weight: lighter;
+.wrapper section.header .content {
+  width: 80%;
+}
+.wrapper section.header .content h1,
+.wrapper section.header .content h5 {
   padding-left: 8rem;
+  width: 580px;
+}
+.wrapper section.header .content h1 {
+  font-weight: lighter;
   font-size: 2rem;
 }
-.wrapper section.header h1 strong {
+.wrapper section.header .content h1 strong {
   font-weight: bold;
+}
+.wrapper section.header .content h5 {
+  font-size: 1.15rem;
+  font-weight: 100;
 }
 .wrapper section.banner-back {
   height: 25rem;
@@ -119,10 +133,29 @@ body {
 }
 .wrapper section .head h4 {
   display: inline-block;
-  font-weight: 300;
+  font-weight: 600;
 }
 .wrapper section .head h4.left {
   padding-left: 11%;
+}
+.wrapper section .bubbles {
+  width: 100%;
+  text-align: center;
+}
+.wrapper section .bubbles div {
+  font-weight: 100;
+  border-radius: 10px;
+  cursor: pointer;
+  background: white;
+  color: #e74c3c;
+  display: inline-block;
+  padding: .3rem 1rem;
+  margin: 0 .2rem;
+  border: 1px solid #e74c3c;
+}
+.wrapper section .bubbles div.active {
+  color: white;
+  background: #e74c3c;
 }
 .wrapper section .body {
   width: 100%;
@@ -176,6 +209,10 @@ body {
 }
 .wrapper section.footer .content {
   color: white;
+}
+.wrapper section.footer .content .title {
+  width: 100%;
+  text-align: center;
 }
 .wrapper section.footer .element {
   margin: .2rem 0;
