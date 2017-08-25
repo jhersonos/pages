@@ -41,6 +41,14 @@ body {
   height: auto;
   margin: 2rem 0;
 }
+.wrapper section.header h1 {
+  font-weight: lighter;
+  padding-left: 8rem;
+  font-size: 2rem;
+}
+.wrapper section.header h1 strong {
+  font-weight: bold;
+}
 .wrapper section.banner-back {
   height: 25rem;
   position: relative;
@@ -86,6 +94,19 @@ body {
   border: 0;
   height: 2rem;
   width: 220px;
+  display: inline-block;
+}
+.wrapper section.banner-back .content select {
+  height: 2rem;
+  width: 220px;
+}
+.wrapper section.banner-back .content button {
+  height: 2rem;
+  width: 100px;
+  border-radius: 5px;
+  border: 0;
+  background: #e74c3c;
+  color: white;
 }
 .wrapper section .head {
   width: 100%;
