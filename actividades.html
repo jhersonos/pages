@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Experiencia</title>
+    <meta content='4' data-name='image-counter'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="actividad-id">
+<div class="cabeza nav-white" id="cabeza">
+  <nav>
+    <ul>
+      <li class="left">
+        <img src="https://s3-sa-east-1.amazonaws.com/manki/static/assets/ssl/logo.svg">
+      </li>
+      <li class="manki-name">
+        <a class="color-orange" href="#">Manki</a>
+      </li>  
+      <li>
+        <a href="#sectiontext">lifeStyle</a>
+      </li>
+      <li class="menu">
+        <img src="https://cdn4.iconfinder.com/data/icons/flat-black/128/menu.png">
+      </li>
+      <li>
+        <a href="#destinos">Destination</a>
+      </li>
+      <li>
+        <a href="#actividades">Activity</a>
+      </li>
+      <li class="right">sign up</li>
+    </ul>
+  </nav>
+</div>
+<!-- actividad container -->
+<div class="actividad-container" id="actividad-container">
+	<div class="table-actividad">
+		<div class="actividad-row" id="r1">
+			<div class="descubre-actividad">
+				<div class="text">
+					<h2>Descubre Markahuasi</h2>
+					<h4><!-- <strong>Lima </strong>-  -->Conectate con el universo de marcahuasi</h4>
+					<div class="icons">
+						<div class="box">
+							<!-- <img src="../assets/Iconos/reloj.png"> -->
+							<div class="ico-reloj"></div>
+							<span>5h</span>
+						</div><div class="box">
+							<div class="ico-locacion"></div>
+							<span>Lima</span>
+						</div><div class="box">
+							<div class="ico-personas"></div>
+							<span>2 - 5</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lider-actividad">
+				<div class="content">
+					<div class="avatar">
+						<div class="avatar-box">
+							<img src="https://cdn3.iconfinder.com/data/icons/rcons-user-action/32/boy-512.png">
+							<div class="name">
+								Jhonatan
+							</div>
+						</div>
+					</div><div class="text">
+						<div class="text-box">
+							<div class="paragraph">
+								We are travelers who design experiences for travelers like us. We look for people to enjoy and discover new landscapes. No hassles, no pressures and enough freedom to explore everything. We specialize in short routes within Lima and we have a staff of professionals who love what they do.
+							</div>
+						</div>
+					</div>
+					<div class="languages">
+						<div class="ico-mes"></div><span class="len">English </span>|<span class="len"> Spanish</span>
+					</div>
+				</div>
+			</div>
+			<div class="text-actividad">
+				<div class="text-content">
+					<div class="box">
+						<h2 class="title">
+							What we will do
+						</h2>
+						<div class="text">
+							We will visit one of the most beautiful archaeological sanctuaries in Lima. In this sanctuary you can see the best sunrise of the city because you will be surrounded by a mattress denims and the sun rising above the Andes.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="package">
+				<div class="package-content">
+					<div class="head">
+						<div class="title">
+							<span>What i’ll Provide</span>
+						</div>						
+					</div>
+					<div class="body">
+						<div class="text">
+							<ul>
+								<li>- Transport from Lima - Chosica - San Pedro</li>
+								<li>- Tourist guide, Entrance ticket (foreigners must add 10 soles)</li>
+								<li>- 02 lunches (vegetarian option)</li>
+								<li>- Assistance during the trip</li>
+								<li>- Campfire night and excursions</li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="notes">
+				<div class="notes-content">
+					<div class="head">
+						<div class="title">
+							<span>notes</span>
+						</div>						
+					</div>
+					<div class="body">
+						<div class="text">
+							Bring your own bathing suit and any beach necessities. Whether that be special foods and drinks. If you have your own wetsuit. Always bring sunscreen and warm clothing. Pants and jacket recommended.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="box-map">
+				<div class="title-map">
+					<div class="title">
+						where we will meet
+					</div>
+					<div class="cont">
+						Cruce del Jr. Chota con Paseo Colon (Altura de la Plaza Bolognesi)
+					</div>
+				</div>
+				<div id="map"></div>
+			</div>
+			<div class="where" id="where">
+				<div class="where-content">
+					<div class="head">
+						<div class="title">
+							<span>where we will be</span>
+						</div>
+					</div>
+					<div class="body">
+						<div class="text">
+							San Pedro de Casta, town of Huarochiri known for its innumerable traditions such as the feast of water or horse races. The Laguna Cachu Cachu and the Laguna Huacracocha. The monument to humanity, a huge rock where different faces of cultures of the world are visualized. The hut of Dr. Daniel Ruzo, researcher of Markahuasi who spent 9 years exploring it. Pre-Inca remains and a lot of shapes in the rock.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="table .w3-animate-bottom" id="table">
+				<div class="row">
+					<div class="title">Next available dates</div>
+					<ul>
+						<li><span>Mon. March 13, 10 a.m. </span></li>
+						<li><span>Wed. March 15, 10 a.m. </span></li>
+						<li><span>Mon. March 22,  10 a.m. </span></li>
+						<li><span>Wed. March 22,  10 a.m. </span></li>
+					</ul>
+					<div class="foot">
+						See more available dates
+					</div>
+				</div><div class="row">
+					<div class="title">How many guests</div>
+					<div class="cantidad">
+						<div class="operation">
+							<div class="num">
+								01
+							</div><div class="actions">
+								<div class="mas"></div><div class="menos"></div>
+							</div>
+						</div>
+					</div>
+					<div class="total">
+						<div class="coti">
+							<div class="precio">
+								Total
+							</div><div class="precio-num">
+								$50 
+							</div>
+						</div>
+						<div class="term">
+						<input type="checkbox" name="terminos" id="terminos">
+							<label for="terminos" class="terms">
+								Accept <a href="" class="terms-orange">terms and conditions</a>
+							</label>
+						</div>
+					</div>
+				</div>
+				<button class="btn-activities">BOOK NOW</button>
+			</div>
+		</div><div class="actividad-row" id="r2">
+				<div id="static" class="boximage">
+					<div class="box-img">
+						<div class="image-back"></div>
+					</div>	
+					<div class="box-info">
+						<div class="price">
+							<span class="precio-static f-left"><strong>$50</strong> per person</span>
+							<a class="btn-coti r f-rigth" href="#where">BOOK NOW</a>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+<!-- footer -->
+<div class="mankifooter">
+    <div class="log">
+      <img src="https://s3-sa-east-1.amazonaws.com/manki/static/assets/ssl/logo.svg">
+    </div>
+    <div class="copy">
+      © 2017 manki. All rights reserved.
+    </div>
+    <div class="manki">
+      
+    </div>
+</div>
+<!-- end footer -->
+</div>
+<!-- end actividad container -->
+	<div class="bg">
+		<img src="http://img04.deviantart.net/8225/i/2012/239/8/8/the_legend_of_korra___anime_icon_by_devill_dante-d5cngac.png">
+	</div>
+<div class="mobile">
+	<div class="description">
+		<div class="fix">
+			<div class="price">
+				$50 per person
+			</div><div class="button">
+				<button>book now</button>
+			</div>
+		</div>
+		<div class="descubre">
+			<div class="title"><span>Descubre Markahuasi</span></div>
+			<div class="content"><span><strong>Lima </strong>- Conectate con el universo de marcahuasi</span></div>
+		</div>
+		<div class="date">
+			<div class="icons">
+				<div class="box">
+					<!-- <img src="../assets/Iconos/reloj.png"> -->
+					<div class="ico-reloj"></div>
+					<span>5h</span>
+				</div><div class="box">
+					<div class="ico-locacion"></div>
+					<span>Lima</span>
+				</div><div class="box">
+					<div class="ico-personas"></div>
+					<span>2 - 5</span>
+				</div>
+			</div>	
+		</div>
+		<hr>
+					<div class="table .w3-animate-bottom" id="table-mobile">
+				<div class="row">
+					<div class="title">Next available dates</div>
+					<ul>
+						<li><span>Mon. March 13, 10 a.m. </span></li>
+						<li><span>Wed. March 15, 10 a.m. </span></li>
+						<li><span>Mon. March 22,  10 a.m. </span></li>
+						<li><span>Wed. March 22,  10 a.m. </span></li>
+					</ul>
+				</div><div class="row">
+					<div class="cantidad">
+						<!-- <div class="operation">
+							<div class="num">
+								01
+							</div><div class="actions">
+								<div class="mas"></div><div class="menos"></div>
+							</div>
+						</div> -->
+					</div>
+					<div class="total">
+<!-- 						<div class="coti">
+							<div class="precio">
+								Total
+							</div><div class="precio-num">
+								$50 
+							</div>
+						</div> -->
+						<div class="term">
+						<input type="checkbox" name="terminos" id="terminos" style="margin-bottom: .2rem;">
+							<label for="terminos" class="terms">
+								Accept <a href="" class="terms-orange">terms and conditions</a>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="avatar-mobile">
+			<div class="circle-mobile">
+				<img src="https://s3-sa-east-1.amazonaws.com/manki/static/assets/ssl/logo.svg">
+			</div>
+			<div class="name-mobile">
+				Jhonatan
+			</div>
+			<div class="content-mobile">
+				<span>We are travelers who design experiences for travelers like us. We look for people to enjoy and discover new landscapes. No hassles, no pressures and enough freedom to explore everything. We specialize in short routes within Lima and we have a staff of professionals who love what they do.</span>
+			</div>
+			<div class="idioma">
+				<span class="icon"></span><span>English | Spanish</span>
+			</div>
+		</div>
+		<hr>
+		<div class="provide-mobile">
+			<div class="title">What i’ll Provide</div>
+			<div class="body">
+				<div class="text">
+					<ul>
+						<li>Transport from Lima - Chosica - San Pedro</li>
+						<li>Tourist guide, Entrance ticket (foreigners must add 10 soles)</li>
+						<li>02 lunches (vegetarian option)</li>
+						<li>Assistance during the trip</li>
+						<li>Campfire night and excursions</li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<hr>
+		<div class="notas-mobile">
+			<div class="title">
+				<span>Notes</span>
+			</div>
+			<div class="content">
+				<span>Bring your own bathing suit and any beach necessities. Whether that be special foods and drinks. If you have your own wetsuit. Always bring sunscreen and warm clothing. Pants and jacket recommended.</span>
+			</div>
+		</div>
+	</div>
+	<div class="map-mobile">
+		<div class="content-map">
+			<div class="title">where we will meet</div>
+			<div class="content">Cruce del Jr. Chota con Paseo Colon (Altura de la Plaza Bolognesi)</div>
+		</div>
+		<div id="map-mobile">
+			
+		</div>
+		<div class="text-foot">
+			<div class="title">
+				<span>where we will be</span>
+			</div>
+			<div class="content">
+				<span>San Pedro de Casta, town of Huarochiri known for its innumerable traditions such as the feast of water or horse races. The Laguna Cachu Cachu and the Laguna Huacracocha. The monument to humanity, a huge rock where different faces of cultures of the world are visualized. The hut of Dr. Daniel Ruzo, researcher of Markahuasi who spent 9 years exploring it. Pre-Inca remains and a lot of shapes in the rock.</span>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer mobile -->
+<!-- <div class="mankifooter">
+    <div class="log">
+      <img src="../logo-de-manki-orange.svg">
+    </div>
+    <div class="copy">
+      © 2017 manki. All rights reserved.
+    </div>
+    <div class="manki">
+      
+    </div>
+</div> -->
+<!-- end footer -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/vue"></script>
+<script src="https://cdn.jsdelivr.net/vue.resource/1.2.1/vue-resource.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.sticky.js"></script> -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAi-aqtVVbhCvbk5h2Z28fp2GAxnyCaJoY&libraries=places"></script>
+<script type="text/javascript" src="js/map.js"></script>
+</body>
+</html>
