@@ -387,13 +387,14 @@ body {
 }
 .wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .text h4 {
   margin: 1rem;
-  margin-top: -0.5rem;
+  margin-top: -0.2rem;
   text-transform: uppercase;
   font-family: 'source sans pro';
   color: #303030;
   line-height: 2;
   letter-spacing: 1px;
   font-weight: 300;
+  font-size: .8rem;
 }
 .wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .text h4 strong {
   font-weight: 400;
