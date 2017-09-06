@@ -12,6 +12,9 @@ html,body{
 }
 .wrapper{
 	width: 100%;
+	.media{
+		display: none;
+	}
 	header{
 		width: 100%;
 		.nav{
@@ -147,7 +150,7 @@ html,body{
 				color:#e74c3c;
 				display: inline-block;
 				padding: .3rem 1rem;
-				margin: 0 .7rem; 
+				margin: .15rem .7rem; 
 				border: 1px solid #e74c3c;
 				&.active{
 					color:white;
@@ -245,7 +248,7 @@ html,body{
 /*slick*/
 /*end slick */
 /*footer*/
-#actividad-id {
+.wrapper{
 	#r1 {
 		width: 65%;
 	}
@@ -1243,6 +1246,26 @@ html,body{
 }
 @media only screen and (max-width: 500px) {
 	.wrapper {
+		section.header{
+			.content{
+				width: 80%;
+				h1,h5{
+					padding-left: 4rem;
+					width: 100%;
+				}
+				h1{
+					font-weight: lighter;				
+					font-size: 2rem;
+					strong{
+						font-weight: bold;
+					}
+				}
+				h5{
+					font-size: 1.15rem;
+					font-weight: 100;
+				}
+			}
+		}
 		section.banner-back {
 			.content {
 				h1{
@@ -1265,7 +1288,7 @@ html,body{
 			}
 		}
 	}
-	#actividad-id {
+	.wrapper {
 		.fix {
 			position: fixed;
 			bottom: 0px;
@@ -1728,8 +1751,55 @@ html,body{
 		position: relative;
 	}
 }
+@media (min-width:501px) and (max-width:745px){
+	.wrapper {
+		section.header{
+			.content{
+				width: 80%;
+				h1,h5{
+					padding-left: 4rem;
+					width: 100%;
+				}
+				h1{
+					font-weight: lighter;				
+					font-size: 2rem;
+					strong{
+						font-weight: bold;
+					}
+				}
+				h5{
+					font-size: 1.15rem;
+					font-weight: 100;
+				}
+			}
+		}
+		section.banner-back {
+			.content {
+				h1{
+					width: 100%;
+					font-size: 2rem;
+				}
+				h4{
+					width: 100%;
+				}
+				select{
+					background: white;
+					width: 222px;					
+					margin: .4rem 0;
+					margin-left: 3rem;
+					display: block;
+				}
+				button{
+					margin: .4rem 0;
+					margin-left: 3rem;
+					display: block;
+				}
+			}
+		}
+	}
+}
 @media only screen and (min-width: 501px) and (max-width: 1023px) {
-	#actividad-id {
+	.wrapper {
 		.actividad-box {
 			.art {
 				width: 100%;
@@ -1753,9 +1823,50 @@ html,body{
 			margin: 0.55rem;
 		}
 	}
+	.wrapper{ 
+		#r1{
+			display: block;
+			width: 100%;
+		}
+		#r2{
+			display: none;
+			width: 100%;
+		}
+		.media{
+			display: block;
+			.box-img{
+				.image-back{
+					width: 100%;
+				    background-image: url(http://img04.deviantart.net/8225/i/2012/239/8/8/the_legend_of_korra___anime_icon_by_devill_dante-d5cngac.png);
+				    height: 435px;
+				    background-size: cover;
+				    background-position: center;
+				    background-repeat: no-repeat;
+				}
+			}
+		}
+		.actividad-container {
+			.table-actividad{ 
+					.actividad-row {						
+						.lider-actividad{
+							height: 25rem;
+						}
+						.package{
+							height: 20rem;
+						}
+						.where{
+							height: 23rem;
+						}
+						#table{
+							height: 315px;
+						}
+					}
+				}
+			}
+		}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1300px) {
-	#actividad-id {
+	.wrapper {
 		.actividades {
 			.art {
 				width: 85%;
@@ -1766,7 +1877,7 @@ html,body{
 	}
 }
 @media only screen and (min-width: 1370px) {
-	#actividad-id {
+	.wrapper {
 		.boximage {
 			margin-top: 3.6rem;
 			margin-left: 6rem;

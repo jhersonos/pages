@@ -14,6 +14,9 @@ body {
 .wrapper {
   width: 100%;
 }
+.wrapper .media {
+  display: none;
+}
 .wrapper header {
   width: 100%;
 }
@@ -151,7 +154,7 @@ body {
   color: #e74c3c;
   display: inline-block;
   padding: .3rem 1rem;
-  margin: 0 .7rem;
+  margin: .15rem .7rem;
   border: 1px solid #e74c3c;
 }
 .wrapper section .bubbles div.active {
@@ -232,35 +235,35 @@ body {
 /*slick*/
 /*end slick */
 /*footer*/
-#actividad-id #r1 {
+.wrapper #r1 {
   width: 65%;
 }
-#actividad-id #r2 {
+.wrapper #r2 {
   width: 33%;
 }
-#actividad-id .f-left {
+.wrapper .f-left {
   float: left;
 }
-#actividad-id .f-rigth {
+.wrapper .f-rigth {
   float: right;
 }
-#actividad-id .r {
+.wrapper .r {
   position: relative;
   right: 8px;
 }
-#actividad-id .w3-animate-bottom {
+.wrapper .w3-animate-bottom {
   position: relative;
   animation: animatebottom 0.9s;
   transition: opacity 0.9s ease-in-out;
 }
-#actividad-id .top {
+.wrapper .top {
   margin-top: 0 !important;
   transition: all 1.5s ease-in-out;
 }
-#actividad-id .bottom {
+.wrapper .bottom {
   bottom: 37rem;
 }
-#actividad-id input[type="checkbox"] {
+.wrapper input[type="checkbox"] {
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
@@ -275,31 +278,31 @@ body {
   transition: all .3s linear;
   top: 0.25rem;
 }
-#actividad-id .terms {
+.wrapper .terms {
   font-family: 'source sans pro';
   font-size: 0.8rem;
 }
-#actividad-id .terms-orange {
+.wrapper .terms-orange {
   color: #ff480c;
   line-height: 2.67;
   letter-spacing: 0.5px;
 }
-#actividad-id .slick-prev:before {
+.wrapper .slick-prev:before {
   content: '<';
   color: black;
   font-size: 2rem;
   font-weight: 800;
 }
-#actividad-id .slick-next:before {
+.wrapper .slick-next:before {
   content: '>';
   color: black;
   font-size: 2rem;
   font-weight: 800;
 }
-#actividad-id .mobile {
+.wrapper .mobile {
   display: none;
 }
-#actividad-id .nav-white {
+.wrapper .nav-white {
   background-color: white;
   -webkit-transition: background 0.8s ease-in-out;
   -moz-transition: background 0.8s ease-in-out;
@@ -307,23 +310,23 @@ body {
   -o-transition: background 0.8s ease-in-out;
   transition: background 0.8s ease-in-out;
 }
-#actividad-id .fixed {
+.wrapper .fixed {
   position: fixed;
 }
-#actividad-id .box-map {
+.wrapper .box-map {
   height: 23rem;
   position: relative;
   margin-left: auto;
   width: 85%;
   border-bottom: 1px solid #c2c2c2;
 }
-#actividad-id .box-map .title-map {
+.wrapper .box-map .title-map {
   position: relative;
   margin-left: auto;
   width: 92%;
   margin-top: 1rem;
 }
-#actividad-id .box-map .title-map .title {
+.wrapper .box-map .title-map .title {
   font-size: 1rem;
   font-family: 'source sans pro';
   color: #303030;
@@ -331,14 +334,14 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 }
-#actividad-id .box-map .title-map .cont {
+.wrapper .box-map .title-map .cont {
   font-size: 1rem;
   font-family: 'source sans pro';
   font-weight: 300;
   letter-spacing: .8px;
   color: #303030;
 }
-#actividad-id .box-map #map {
+.wrapper .box-map #map {
   height: 255px;
   position: relative;
   margin-left: auto;
@@ -346,25 +349,25 @@ body {
   border-bottom: 1px solid #c2c2c2;
   margin-top: 1rem;
 }
-#actividad-id .actividad-container .table-actividad {
+.wrapper .actividad-container .table-actividad {
   width: 80%;
   text-align: left;
   display: inline-block;
   margin-left: -2rem;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row {
+.wrapper .actividad-container .table-actividad .actividad-row {
   width: 50%;
   display: inline-block;
   vertical-align: top;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad {
   height: 266px;
   position: relative;
   margin-left: auto;
   width: 85%;
   border-bottom: 1px solid #c2c2c2;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .text {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .text {
   position: absolute;
   width: 100%;
   left: 50%;
@@ -372,7 +375,7 @@ body {
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .text h2 {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .text h2 {
   margin: 1rem;
   text-transform: uppercase;
   font-family: 'source sans pro';
@@ -382,7 +385,7 @@ body {
   font-weight: 400;
   margin-bottom: 0rem;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .text h4 {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .text h4 {
   margin: 1rem;
   margin-top: -0.5rem;
   text-transform: uppercase;
@@ -392,20 +395,20 @@ body {
   letter-spacing: 1px;
   font-weight: 300;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .text h4 strong {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .text h4 strong {
   font-weight: 400;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .icons {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .icons {
   width: 100%;
   height: 50px;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box {
   width: 33.33%;
   height: 100%;
   display: inline-block;
   text-align: center;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box .ico-reloj {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box .ico-reloj {
   background-image: url(../img/reloj.png);
   width: 1.5rem;
   height: 1.5rem;
@@ -413,13 +416,13 @@ body {
   display: inline-block;
   background-size: 100% 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box span {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box span {
   display: block;
   font-family: 'source sans pro';
   font-weight: 300;
   letter-spacing: .5px;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box .ico-locacion {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box .ico-locacion {
   background-image: url(../img/locacion.png);
   width: 1.5rem;
   height: 1.5rem;
@@ -427,7 +430,7 @@ body {
   display: inline-block;
   background-size: 100% 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box .ico-personas {
+.wrapper .actividad-container .table-actividad .actividad-row .descubre-actividad .icons .box .ico-personas {
   background-image: url(../img/personas.png);
   width: 2rem;
   height: 1.5rem;
@@ -435,25 +438,25 @@ body {
   display: inline-block;
   background-size: 100% 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad {
   height: 19rem;
   position: relative;
   margin-left: auto;
   width: 85%;
   border-bottom: 1px solid #c2c2c2;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .content {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .content {
   width: 100%;
   height: 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .content .languages {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .content .languages {
   position: absolute;
   bottom: 2rem;
   left: 2.5rem;
   font-family: 'source sans pro';
   margin-left: 1rem;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .content .languages .ico-mes {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .content .languages .ico-mes {
   width: 1.5rem;
   height: 1.5rem;
   background-image: '';
@@ -466,18 +469,18 @@ body {
   background-size: 100% 100%;
   position: relative;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .content .languages .len {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .content .languages .len {
   display: inline-block;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .avatar {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .avatar {
   width: 30%;
   height: 100%;
   display: inline-block;
   position: relative;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .avatar-box {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .avatar-box {
   text-align: center;
   position: absolute;
   border-radius: 50%;
@@ -486,10 +489,10 @@ body {
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .avatar-box img {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .avatar-box img {
   width: 6rem;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .avatar-box .name {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .avatar-box .name {
   margin-top: 1rem;
   font-family: 'source sans pro';
   color: #303030;
@@ -498,13 +501,13 @@ body {
   letter-spacing: 1px;
   font-weight: 400;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .text {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .text {
   width: 70%;
   height: 100%;
   display: inline-block;
   position: relative;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box {
   position: absolute;
   border-radius: 50%;
   left: 50%;
@@ -513,7 +516,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
   width: 95%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .paragraph {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .paragraph {
   font-size: 15px;
   font-family: 'Source Sans Pro';
   color: #303030;
@@ -521,14 +524,14 @@ body {
   line-height: 1.67;
   letter-spacing: 0.8px;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .languages {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .languages {
   margin-top: 1rem;
   font-family: 'Source Sans Pro';
   color: #303030;
   font-weight: 400;
   letter-spacing: .8px;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .languages .ico-mes {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .languages .ico-mes {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
@@ -540,24 +543,24 @@ body {
   top: 0.4rem;
   margin-right: 0.4rem;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .languages .len {
+.wrapper .actividad-container .table-actividad .actividad-row .lider-actividad .text .text-box .languages .len {
   display: inline-block;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .text-actividad {
+.wrapper .actividad-container .table-actividad .actividad-row .text-actividad {
   height: 266px;
   position: relative;
   margin-left: auto;
   width: 85%;
   border-bottom: 1px solid #c2c2c2;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .text-actividad .text-content {
+.wrapper .actividad-container .table-actividad .actividad-row .text-actividad .text-content {
   width: 92%;
   margin-left: auto;
   height: 100%;
   position: relative;
   border-bottom: solid 1px #c2c2c2;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .text-actividad .text-content .box {
+.wrapper .actividad-container .table-actividad .actividad-row .text-actividad .text-content .box {
   width: 100%;
   position: absolute;
   border-radius: 50%;
@@ -566,7 +569,7 @@ body {
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .text-actividad .text-content .box .title {
+.wrapper .actividad-container .table-actividad .actividad-row .text-actividad .text-content .box .title {
   font-family: 'source sans pro';
   text-transform: uppercase;
   font-weight: 600;
@@ -574,29 +577,29 @@ body {
   font-size: 1rem;
   color: #303030;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .text-actividad .text-content .box .text {
+.wrapper .actividad-container .table-actividad .actividad-row .text-actividad .text-content .box .text {
   font-family: 'source sans pro';
   font-weight: 300;
   letter-spacing: .8px;
   color: #303030;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .package {
+.wrapper .actividad-container .table-actividad .actividad-row .package {
   height: 16rem;
   position: relative;
   margin-left: auto;
   width: 85%;
   border-bottom: 1px solid #c2c2c2;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .package .package-content {
+.wrapper .actividad-container .table-actividad .actividad-row .package .package-content {
   width: 100%;
   height: 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .package .package-content .head {
+.wrapper .actividad-container .table-actividad .actividad-row .package .package-content .head {
   width: 100%;
   height: 20%;
   position: relative;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .package .package-content .title {
+.wrapper .actividad-container .table-actividad .actividad-row .package .package-content .title {
   font-family: 'source sans pro';
   text-transform: uppercase;
   font-weight: 600;
@@ -608,7 +611,7 @@ body {
   bottom: 0;
   right: 0;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .package .package-content .title span {
+.wrapper .actividad-container .table-actividad .actividad-row .package .package-content .title span {
   font-family: 'source sans pro';
   color: #303030;
   line-height: 0.8;
@@ -617,22 +620,22 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .package .package-content .body {
+.wrapper .actividad-container .table-actividad .actividad-row .package .package-content .body {
   width: 100%;
   height: 80%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .package .package-content .body .text {
+.wrapper .actividad-container .table-actividad .actividad-row .package .package-content .body .text {
   width: 100%;
   height: 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .package .package-content .body .text ul {
+.wrapper .actividad-container .table-actividad .actividad-row .package .package-content .body .text ul {
   padding: 0;
   text-decoration: none;
   list-style: none;
   width: 80%;
   margin-left: auto;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .package .package-content .body .text ul li {
+.wrapper .actividad-container .table-actividad .actividad-row .package .package-content .body .text ul li {
   padding: .15rem;
   font-family: 'source sans pro';
   color: #303030;
@@ -640,29 +643,29 @@ body {
   font-weight: 300;
   letter-spacing: .8px;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .notes {
+.wrapper .actividad-container .table-actividad .actividad-row .notes {
   height: 170px;
   position: relative;
   margin-left: auto;
   width: 85%;
   border-bottom: 1px solid #c2c2c2;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .notes .notes-content {
+.wrapper .actividad-container .table-actividad .actividad-row .notes .notes-content {
   height: 100%;
   width: 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .notes .notes-content .head {
+.wrapper .actividad-container .table-actividad .actividad-row .notes .notes-content .head {
   height: 20%;
   width: 100%;
   position: relative;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .notes .notes-content .head .title {
+.wrapper .actividad-container .table-actividad .actividad-row .notes .notes-content .head .title {
   width: 92%;
   position: absolute;
   bottom: 0;
   right: 0;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .notes .notes-content .head .title span {
+.wrapper .actividad-container .table-actividad .actividad-row .notes .notes-content .head .title span {
   font-family: 'source sans pro';
   color: #303030;
   letter-spacing: .8px;
@@ -670,12 +673,12 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .notes .notes-content .body {
+.wrapper .actividad-container .table-actividad .actividad-row .notes .notes-content .body {
   height: 80%;
   width: 100%;
   position: relative;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .notes .notes-content .body .text {
+.wrapper .actividad-container .table-actividad .actividad-row .notes .notes-content .body .text {
   width: 92%;
   position: absolute;
   right: 0;
@@ -685,29 +688,29 @@ body {
   font-weight: 300;
   letter-spacing: .8px;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .where {
+.wrapper .actividad-container .table-actividad .actividad-row .where {
   height: 19rem;
   position: relative;
   margin-left: auto;
   width: 85%;
   border-bottom: 1px solid #c2c2c2;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .where .where-content {
+.wrapper .actividad-container .table-actividad .actividad-row .where .where-content {
   height: 100%;
   width: 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .where .where-content .head {
+.wrapper .actividad-container .table-actividad .actividad-row .where .where-content .head {
   height: 20%;
   width: 100%;
   position: relative;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .where .where-content .head .title {
+.wrapper .actividad-container .table-actividad .actividad-row .where .where-content .head .title {
   width: 92%;
   position: absolute;
   bottom: 0;
   right: 0;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .where .where-content .head .title span {
+.wrapper .actividad-container .table-actividad .actividad-row .where .where-content .head .title span {
   font-size: 1rem;
   font-family: 'source sans pro';
   color: #303030;
@@ -715,12 +718,12 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .where .where-content .body {
+.wrapper .actividad-container .table-actividad .actividad-row .where .where-content .body {
   height: 80%;
   width: 100%;
   position: relative;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .where .where-content .body .text {
+.wrapper .actividad-container .table-actividad .actividad-row .where .where-content .body .text {
   width: 92%;
   position: absolute;
   right: 0;
@@ -730,7 +733,7 @@ body {
   font-weight: 300;
   letter-spacing: .8px;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table {
+.wrapper .actividad-container .table-actividad .actividad-row .table {
   height: 230px;
   position: relative;
   margin-left: auto;
@@ -741,28 +744,28 @@ body {
   font-family: 'source sans pro';
   padding: 1rem 0rem;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row {
   width: 50%;
   display: inline-block;
   vertical-align: top;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row .cantidad {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row .cantidad {
   width: 100%;
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row .cantidad .operation {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row .cantidad .operation {
   width: 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .num {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .num {
   width: 45%;
   display: inline-block;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .actions {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .actions {
   width: 55%;
   display: inline-block;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .actions .mas {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .actions .mas {
   background-image: url('../img/mas.png');
   position: relative;
   top: 0.3rem;
@@ -774,7 +777,7 @@ body {
   margin: 0 0.4rem;
   cursor: pointer;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .actions .menos {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row .cantidad .operation .actions .menos {
   background-image: url('../img/menos.png');
   position: relative;
   top: 0.3rem;
@@ -786,24 +789,24 @@ body {
   margin: 0 0.4rem;
   cursor: pointer;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row ul {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row ul {
   padding: 0;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row .total {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row .total {
   width: 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row .total .coti {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row .total .coti {
   width: 100%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row .total .coti .precio {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row .total .coti .precio {
   display: inline-block;
   width: 50%;
 }
-#actividad-id .actividad-container .table-actividad .actividad-row .table .row .total .coti .precio-num {
+.wrapper .actividad-container .table-actividad .actividad-row .table .row .total .coti .precio-num {
   display: inline-block;
   width: 50%;
 }
-#actividad-id .actividad-container .actividad-row .boximage .image-back {
+.wrapper .actividad-container .actividad-row .boximage .image-back {
   width: 100%;
   background-image: url(http://img04.deviantart.net/8225/i/2012/239/8/8/the_legend_of_korra___anime_icon_by_devill_dante-d5cngac.png);
   height: 435px;
@@ -811,19 +814,19 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-#actividad-id .actividad-container .actividad-row .box-info {
+.wrapper .actividad-container .actividad-row .box-info {
   width: 100%;
 }
-#actividad-id .actividad-container .actividad-row .box-info .price {
+.wrapper .actividad-container .actividad-row .box-info .price {
   width: 100%;
   margin: 0.5rem 0;
   font-family: 'source sans pro';
   text-align: center;
 }
-#actividad-id .actividad-container .actividad-row .box-info .price .precio-static {
+.wrapper .actividad-container .actividad-row .box-info .price .precio-static {
   display: inline-block;
 }
-#actividad-id .actividad-container .actividad-row .box-info .price .btn-coti {
+.wrapper .actividad-container .actividad-row .box-info .price .btn-coti {
   display: inline-block;
   width: 10rem;
   text-align: center;
@@ -833,92 +836,92 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
-#actividad-id .actividad-container .actividad-row .box-info .price span {
+.wrapper .actividad-container .actividad-row .box-info .price span {
   font-weight: 300;
   letter-spacing: .8px;
 }
-#actividad-id .actividad-container .actividad-row .box-info .price span strong {
+.wrapper .actividad-container .actividad-row .box-info .price span strong {
   font-weight: 600;
   letter-spacing: .8px;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table {
+.wrapper .actividad-container .actividad-row .box-info .table {
   width: 100%;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row {
+.wrapper .actividad-container .actividad-row .box-info .table .row {
   width: 50%;
   font-weight: 300;
   display: inline-block;
   vertical-align: top;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row .title {
+.wrapper .actividad-container .actividad-row .box-info .table .row .title {
   font-family: 'source sans pro';
   color: #303030;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row .cantidad {
+.wrapper .actividad-container .actividad-row .box-info .table .row .cantidad {
   width: 95%;
   height: 30px;
   border-bottom: 1px solid #c2c2c2;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row .cantidad .operacion {
+.wrapper .actividad-container .actividad-row .box-info .table .row .cantidad .operacion {
   width: 100%;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row .cantidad .num {
+.wrapper .actividad-container .actividad-row .box-info .table .row .cantidad .num {
   width: 15%;
   display: inline-block;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row .cantidad .actions {
+.wrapper .actividad-container .actividad-row .box-info .table .row .cantidad .actions {
   width: 85%;
   display: inline-block;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row .total {
+.wrapper .actividad-container .actividad-row .box-info .table .row .total {
   width: 95%;
   height: 40px;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row .total .coti {
+.wrapper .actividad-container .actividad-row .box-info .table .row .total .coti {
   margin-top: 0.8rem;
   width: 100%;
   height: 100%;
   text-align: center;
   text-transform: uppercase;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row .total .coti .precio {
+.wrapper .actividad-container .actividad-row .box-info .table .row .total .coti .precio {
   width: 25%;
   display: inline-block;
   font-size: 1rem;
   font-family: 'source sans pro';
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row .total .coti .precio-num {
+.wrapper .actividad-container .actividad-row .box-info .table .row .total .coti .precio-num {
   width: 75%;
   font-size: 1rem;
   display: inline-block;
   font-weight: 600;
   font-family: 'source sans pro';
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row ul {
+.wrapper .actividad-container .actividad-row .box-info .table .row ul {
   list-style: circle;
   padding: 0 1rem;
   color: #ff480c;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row .foot {
+.wrapper .actividad-container .actividad-row .box-info .table .row .foot {
   font-family: 'source sans pro';
   color: #ff480c;
   line-height: 2;
   letter-spacing: 0.6px;
 }
-#actividad-id .actividad-container .actividad-row .box-info .table .row li span {
+.wrapper .actividad-container .actividad-row .box-info .table .row li span {
   font-family: 'Source sans pro';
   color: #303030;
 }
-#actividad-id .boximage {
+.wrapper .boximage {
   margin-top: 3.6rem;
   margin-left: 1.5rem;
   width: 90%;
 }
-#actividad-id .boximage .box-img {
+.wrapper .boximage .box-img {
   width: 100%;
   height: 435px;
 }
-#actividad-id .btn-activities {
+.wrapper .btn-activities {
   color: white;
   border-radius: 10px;
   background-color: #ff480c;
@@ -927,10 +930,10 @@ body {
   border: 0;
   margin-top: 0.5rem;
 }
-#actividad-id .actividad-slick .tall {
+.wrapper .actividad-slick .tall {
   min-height: 315px;
 }
-#actividad-id .tall {
+.wrapper .tall {
   margin: 0.2rem;
   display: inline-block;
   height: 100%;
@@ -938,14 +941,14 @@ body {
   width: 193px !important;
   margin: 0.55rem;
 }
-#actividad-id .tall .author-content {
+.wrapper .tall .author-content {
   width: 100%;
   height: 32%;
   position: absolute;
   display: block;
   bottom: 2.5rem;
 }
-#actividad-id .tall .author-content .author {
+.wrapper .tall .author-content .author {
   width: 32%;
   height: 50%;
   border-radius: 50%;
@@ -954,25 +957,25 @@ body {
   display: inline-block;
   position: relative;
 }
-#actividad-id .tall .author-content .avatar {
+.wrapper .tall .author-content .avatar {
   background-image: url('../../assets/destinos/avatar/avatar-4.png');
 }
-#actividad-id .tall .author-content .avatar-2 {
+.wrapper .tall .author-content .avatar-2 {
   background-image: url('../../assets/destinos/avatar/avatar-1.png');
 }
-#actividad-id .tall .author-content .avatar-3 {
+.wrapper .tall .author-content .avatar-3 {
   background-image: url('../../assets/destinos/avatar/avatar-2.png');
 }
-#actividad-id .tall .author-content .avatar-4 {
+.wrapper .tall .author-content .avatar-4 {
   background-image: url('../../assets/destinos/avatar/avatar-3.png');
 }
-#actividad-id .tall .author-content .author-text {
+.wrapper .tall .author-content .author-text {
   width: 70%;
   height: 50%;
   display: inline-block;
   vertical-align: top;
 }
-#actividad-id .tall .author-content .author-text .title {
+.wrapper .tall .author-content .author-text .title {
   font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
@@ -983,7 +986,7 @@ body {
   position: relative;
   color: #303030;
 }
-#actividad-id .tall .author-content .author-text .cont {
+.wrapper .tall .author-content .author-text .cont {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.9rem;
   font-weight: 300;
@@ -994,7 +997,7 @@ body {
   color: #303030;
   top: -0.7rem;
 }
-#actividad-id .text-2 {
+.wrapper .text-2 {
   font-family: 'Source Sans Pro', sans-serif;
   display: block;
   font-size: 2rem;
@@ -1004,16 +1007,16 @@ body {
   color: #ffffff;
   text-shadow: 0px 2px 65.7px rgba(0, 0, 0, 0.61);
 }
-#actividad-id .actividades {
+.wrapper .actividades {
   margin-top: 6rem;
   width: 100%;
   text-align: center;
 }
-#actividad-id .actividades .group {
+.wrapper .actividades .group {
   display: none;
   width: 100%;
 }
-#actividad-id .actividades .group .title {
+.wrapper .actividades .group .title {
   width: 80%;
   margin-bottom: 1rem;
   display: inline-block;
@@ -1026,7 +1029,7 @@ body {
   text-transform: uppercase;
   font-size: 1.25rem;
 }
-#actividad-id .actividades .group .content {
+.wrapper .actividades .group .content {
   width: 60%;
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;
@@ -1038,48 +1041,48 @@ body {
   text-align: center;
   margin-bottom: 5rem;
 }
-#actividad-id .actividades .art {
+.wrapper .actividades .art {
   width: 65%;
   height: 431px;
   display: inline-block;
 }
-#actividad-id .actividades .art .art-1 {
+.wrapper .actividades .art .art-1 {
   background-image: url('../../destino/markahuasi.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 68% !important;
 }
-#actividad-id .actividades .art .art-2 {
+.wrapper .actividades .art .art-2 {
   background-image: url('../../destino/bicicle.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 68% !important;
 }
-#actividad-id .actividades .art .art-3 {
+.wrapper .actividades .art .art-3 {
   background-image: url('../../destino/trekking.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 68% !important;
 }
-#actividad-id .actividades .art .art-4 {
+.wrapper .actividades .art .art-4 {
   background-image: url('../../destino/flaca.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 68% !important;
 }
-#actividad-id .actividad-box {
+.wrapper .actividad-box {
   width: 100%;
 }
-#actividad-id .slick-list {
+.wrapper .slick-list {
   height: 100%;
 }
-#actividad-id .slick-track {
+.wrapper .slick-track {
   height: 100%;
 }
-#actividad-id .footer-container {
+.wrapper .footer-container {
   width: 100%;
 }
-#actividad-id .cabeza {
+.wrapper .cabeza {
   width: 100%;
   position: fixed;
   text-align: center;
@@ -1090,17 +1093,17 @@ body {
   -o-transition: background 0.8s ease-in-out;
   transition: background 0.8s ease-in-out;
 }
-#actividad-id .cabeza nav {
+.wrapper .cabeza nav {
   min-height: 58px;
 }
-#actividad-id .cabeza nav ul {
+.wrapper .cabeza nav ul {
   border-bottom: 1px solid #e6e6e6;
   height: 58px;
   margin: 0px 40px;
   font-size: 0;
   padding: 0;
 }
-#actividad-id .cabeza nav ul li {
+.wrapper .cabeza nav ul li {
   list-style: none;
   display: inline-block;
   vertical-align: top;
@@ -1115,26 +1118,26 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   cursor: pointer;
 }
-#actividad-id .cabeza nav ul li a {
+.wrapper .cabeza nav ul li a {
   text-decoration: none;
   color: #303030;
 }
-#actividad-id .cabeza nav ul li.menu {
+.wrapper .cabeza nav ul li.menu {
   display: none !important;
 }
-#actividad-id .cabeza nav ul li.left {
+.wrapper .cabeza nav ul li.left {
   float: left;
   top: 0 !important;
   padding: 0;
   text-transform: uppercase;
 }
-#actividad-id .cabeza nav ul li.left img {
+.wrapper .cabeza nav ul li.left img {
   width: 3rem;
   margin: 5px;
   height: 3rem;
   margin-left: -0.2rem;
 }
-#actividad-id .cabeza nav ul li.right {
+.wrapper .cabeza nav ul li.right {
   float: right;
   padding: 0;
   color: #ff480c;
@@ -1142,10 +1145,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal !important;
 }
-#actividad-id .color-orange {
+.wrapper .color-orange {
   color: #ff480c !important;
 }
-#actividad-id .manki-name {
+.wrapper .manki-name {
   font-weight: 600;
   line-height: 1.43;
   letter-spacing: 1.4px;
@@ -1156,14 +1159,14 @@ body {
   padding: 0 !important;
   font-weight: normal !important;
 }
-#actividad-id .mankifooter {
+.wrapper .mankifooter {
   width: 100%;
   height: 50px;
   background-color: #ebebeb;
   display: table;
   position: relative;
 }
-#actividad-id .mankifooter .copy {
+.wrapper .mankifooter .copy {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.9rem;
   font-weight: 300;
@@ -1175,7 +1178,7 @@ body {
   vertical-align: middle;
   padding-left: 1rem;
 }
-#actividad-id .mankifooter .manki {
+.wrapper .mankifooter .manki {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1187,10 +1190,10 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-#actividad-id .mankifooter .log {
+.wrapper .mankifooter .log {
   display: none;
 }
-#actividad-id .bg {
+.wrapper .bg {
   display: none;
 }
 .actividad-container {
@@ -1198,6 +1201,25 @@ body {
   text-align: center;
 }
 @media only screen and (max-width: 500px) {
+  .wrapper section.header .content {
+    width: 80%;
+  }
+  .wrapper section.header .content h1,
+  .wrapper section.header .content h5 {
+    padding-left: 4rem;
+    width: 100%;
+  }
+  .wrapper section.header .content h1 {
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+  .wrapper section.header .content h1 strong {
+    font-weight: bold;
+  }
+  .wrapper section.header .content h5 {
+    font-size: 1.15rem;
+    font-weight: 100;
+  }
   .wrapper section.banner-back .content h1 {
     width: 100%;
     font-size: 1.4rem;
@@ -1215,7 +1237,7 @@ body {
     margin: .4rem 0;
     margin-left: 3rem;
   }
-  #actividad-id .fix {
+  .wrapper .fix {
     position: fixed;
     bottom: 0px;
     background: white;
@@ -1223,16 +1245,16 @@ body {
     height: 4rem;
     z-index: 5;
   }
-  #actividad-id .mobile {
+  .wrapper .mobile {
     display: block;
     width: 100%;
   }
-  #actividad-id .mobile .description {
+  .wrapper .mobile .description {
     margin-top: 0.5rem;
     width: 100%;
     height: 100%;
   }
-  #actividad-id .mobile .description .price {
+  .wrapper .mobile .description .price {
     width: 50%;
     display: inline-block;
     text-align: center;
@@ -1240,18 +1262,18 @@ body {
     margin-top: 1.5rem;
     font-family: 'source sans pro';
   }
-  #actividad-id .mobile .description .price .precio-static {
+  .wrapper .mobile .description .price .precio-static {
     display: inline-block;
   }
-  #actividad-id .mobile .description .price .btn-coti {
+  .wrapper .mobile .description .price .btn-coti {
     display: inline-block;
   }
-  #actividad-id .mobile .description .button {
+  .wrapper .mobile .description .button {
     width: 50%;
     display: inline-block;
     text-align: center;
   }
-  #actividad-id .mobile .description .button button {
+  .wrapper .mobile .description .button button {
     width: 158px;
     height: 37px;
     border-radius: 10px;
@@ -1260,40 +1282,40 @@ body {
     border: 0;
     font-size: 1.4rem;
   }
-  #actividad-id .mobile .description .descubre {
+  .wrapper .mobile .description .descubre {
     width: 100%;
   }
-  #actividad-id .mobile .description .descubre .title {
+  .wrapper .mobile .description .descubre .title {
     margin: 0.5rem;
   }
-  #actividad-id .mobile .description .descubre .title span {
+  .wrapper .mobile .description .descubre .title span {
     margin-left: 2rem;
     font-family: 'source sans pro';
   }
-  #actividad-id .mobile .description .descubre .content {
+  .wrapper .mobile .description .descubre .content {
     margin: 0.5rem;
   }
-  #actividad-id .mobile .description .descubre .content span {
+  .wrapper .mobile .description .descubre .content span {
     margin-left: 2rem;
     font-family: 'source sans pro';
     display: block;
   }
-  #actividad-id .mobile .description .date {
+  .wrapper .mobile .description .date {
     width: 100%;
     height: 4rem;
     margin-top: 2rem;
   }
-  #actividad-id .mobile .description .date .icons {
+  .wrapper .mobile .description .date .icons {
     width: 100%;
     height: 50px;
   }
-  #actividad-id .mobile .description .date .icons .box {
+  .wrapper .mobile .description .date .icons .box {
     width: 33.33%;
     height: 100%;
     display: inline-block;
     text-align: center;
   }
-  #actividad-id .mobile .description .date .icons .box .ico-reloj {
+  .wrapper .mobile .description .date .icons .box .ico-reloj {
     background-image: url(../img/reloj.png);
     width: 1.5rem;
     height: 1.5rem;
@@ -1301,7 +1323,7 @@ body {
     display: inline-block;
     background-size: 100% 100%;
   }
-  #actividad-id .mobile .description .date .icons .box .ico-locacion {
+  .wrapper .mobile .description .date .icons .box .ico-locacion {
     background-image: url(../img/locacion.png);
     width: 1.5rem;
     height: 1.5rem;
@@ -1309,7 +1331,7 @@ body {
     display: inline-block;
     background-size: 100% 100%;
   }
-  #actividad-id .mobile .description .date .icons .box .ico-personas {
+  .wrapper .mobile .description .date .icons .box .ico-personas {
     background-image: url(../img/personas.png);
     width: 1.5rem;
     height: 1.5rem;
@@ -1317,148 +1339,148 @@ body {
     display: inline-block;
     background-size: 100% 100%;
   }
-  #actividad-id .mobile .description .date .icons .box span {
+  .wrapper .mobile .description .date .icons .box span {
     display: block;
     font-family: 'source sans pro';
     font-weight: 300;
     letter-spacing: .5px;
   }
-  #actividad-id .mobile .description hr {
+  .wrapper .mobile .description hr {
     width: 80%;
   }
-  #actividad-id .mobile .description .avatar-mobile {
+  .wrapper .mobile .description .avatar-mobile {
     width: 100%;
     text-align: center;
   }
-  #actividad-id .mobile .description .avatar-mobile .circle-mobile {
+  .wrapper .mobile .description .avatar-mobile .circle-mobile {
     border-radius: 50%;
     width: 93.3px;
     height: 92.1px;
     display: inline-block;
   }
-  #actividad-id .mobile .description .avatar-mobile .circle-mobile img {
+  .wrapper .mobile .description .avatar-mobile .circle-mobile img {
     width: 100%;
     height: 100%;
   }
-  #actividad-id .mobile .description .avatar-mobile .content-mobile {
+  .wrapper .mobile .description .avatar-mobile .content-mobile {
     width: 100%;
   }
-  #actividad-id .mobile .description .avatar-mobile .content-mobile span {
+  .wrapper .mobile .description .avatar-mobile .content-mobile span {
     display: inline-block;
     width: 90%;
     text-align: left;
     font-family: 'source sans pro';
   }
-  #actividad-id .mobile .description .avatar-mobile .name-mobile {
+  .wrapper .mobile .description .avatar-mobile .name-mobile {
     font-family: 'source sans pro';
   }
-  #actividad-id .mobile .description .avatar-mobile .idioma span {
+  .wrapper .mobile .description .avatar-mobile .idioma span {
     font-family: 'source sans pro';
   }
-  #actividad-id .mobile .description .notas-mobile {
+  .wrapper .mobile .description .notas-mobile {
     width: 100%;
   }
-  #actividad-id .mobile .description .notas-mobile .title {
+  .wrapper .mobile .description .notas-mobile .title {
     width: 100%;
   }
-  #actividad-id .mobile .description .notas-mobile .title span {
+  .wrapper .mobile .description .notas-mobile .title span {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
     display: block;
     text-transform: uppercase;
   }
-  #actividad-id .mobile .description .notas-mobile .content {
+  .wrapper .mobile .description .notas-mobile .content {
     width: 100%;
   }
-  #actividad-id .mobile .description .notas-mobile .content span {
+  .wrapper .mobile .description .notas-mobile .content span {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
     display: block;
     font-family: 'source sans pro';
   }
-  #actividad-id .mobile .map-mobile {
+  .wrapper .mobile .map-mobile {
     width: 100%;
     margin-top: 4rem;
     height: 100%;
   }
-  #actividad-id .mobile .map-mobile .content-map {
+  .wrapper .mobile .map-mobile .content-map {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
-  #actividad-id .mobile .map-mobile .content-map .title {
+  .wrapper .mobile .map-mobile .content-map .title {
     font-size: 1rem;
     text-transform: uppercase;
   }
-  #actividad-id .mobile .map-mobile .content-map .content {
+  .wrapper .mobile .map-mobile .content-map .content {
     font-family: 'source sans pro';
   }
-  #actividad-id .mobile .map-mobile #map-mobile {
+  .wrapper .mobile .map-mobile #map-mobile {
     width: 100%;
     height: 200px;
     margin: 2rem 0;
   }
-  #actividad-id .mobile .text-foot {
+  .wrapper .mobile .text-foot {
     width: 100%;
   }
-  #actividad-id .mobile .text-foot .title {
+  .wrapper .mobile .text-foot .title {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
-  #actividad-id .mobile .text-foot .title span {
+  .wrapper .mobile .text-foot .title span {
     font-family: 'source sans pro';
     text-transform: uppercase;
   }
-  #actividad-id .mobile .text-foot .content {
+  .wrapper .mobile .text-foot .content {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
-  #actividad-id .mobile .text-foot .content span {
+  .wrapper .mobile .text-foot .content span {
     font-family: 'source sans pro';
   }
-  #actividad-id .mobile .provide-mobile {
+  .wrapper .mobile .provide-mobile {
     width: 100%;
   }
-  #actividad-id .mobile .provide-mobile .title {
+  .wrapper .mobile .provide-mobile .title {
     font-family: 'source sans pro';
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
-  #actividad-id .mobile .provide-mobile .body {
+  .wrapper .mobile .provide-mobile .body {
     width: 100%;
   }
-  #actividad-id .mobile .provide-mobile .body .text {
+  .wrapper .mobile .provide-mobile .body .text {
     width: 90%;
     margin-left: auto;
   }
-  #actividad-id .mobile .provide-mobile .body .text ul {
+  .wrapper .mobile .provide-mobile .body .text ul {
     list-style: none;
     padding: 0;
     font-family: 'source sans pro';
   }
-  #actividad-id .bg {
+  .wrapper .bg {
     display: block;
     width: 100%;
     height: 100%;
   }
-  #actividad-id .bg img {
+  .wrapper .bg img {
     width: 100%;
     height: 100%;
   }
-  #actividad-id .actividades {
+  .wrapper .actividades {
     margin-top: 2rem;
   }
-  #actividad-id .actividades .art {
+  .wrapper .actividades .art {
     width: 100%;
     height: 330px;
     display: inline-block;
   }
-  #actividad-id .actividades .art .art-1 {
+  .wrapper .actividades .art .art-1 {
     width: 100%;
     margin: 0.55rem;
     display: inline-block;
@@ -1468,7 +1490,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
-  #actividad-id .actividades .art .art-2 {
+  .wrapper .actividades .art .art-2 {
     width: 100%;
     margin: 0.55rem;
     display: inline-block;
@@ -1478,7 +1500,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
-  #actividad-id .actividades .art .art-3 {
+  .wrapper .actividades .art .art-3 {
     width: 100%;
     margin: 0.55rem;
     display: inline-block;
@@ -1488,7 +1510,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
-  #actividad-id .actividades .art .art-4 {
+  .wrapper .actividades .art .art-4 {
     width: 100%;
     margin: 0.55rem;
     display: inline-block;
@@ -1498,14 +1520,14 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
-  #actividad-id .actividad-container {
+  .wrapper .actividad-container {
     display: none;
   }
-  #actividad-id .actividad-box {
+  .wrapper .actividad-box {
     width: 94%;
     display: inline-block;
   }
-  #actividad-id .tall {
+  .wrapper .tall {
     width: 150px !important;
     margin-bottom: 0 !important;
     margin: 0.6rem;
@@ -1515,7 +1537,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
-  #actividad-id .tall .author-content {
+  .wrapper .tall .author-content {
     width: 100%;
     height: 30%;
     position: absolute;
@@ -1523,7 +1545,7 @@ body {
     margin: 0.1rem;
     display: block;
   }
-  #actividad-id .tall .author-content .author {
+  .wrapper .tall .author-content .author {
     width: 35%;
     height: 75%;
     border-radius: 50%;
@@ -1533,14 +1555,14 @@ body {
     left: 0;
     display: inline-block;
   }
-  #actividad-id .tall .author-content .author-text {
+  .wrapper .tall .author-content .author-text {
     width: 100%;
     height: 100%;
     display: inline-block;
     vertical-align: top;
     display: block;
   }
-  #actividad-id .tall .author-content .author-text .title {
+  .wrapper .tall .author-content .author-text .title {
     margin-top: 0;
     font-weight: 800;
     font-family: 'Source Sans Pro', sans-serif;
@@ -1550,7 +1572,7 @@ body {
     text-align: center;
     color: #303030;
   }
-  #actividad-id .tall .author-content .author-text .cont {
+  .wrapper .tall .author-content .author-text .cont {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.6rem;
     font-weight: 300;
@@ -1561,33 +1583,33 @@ body {
     width: 89%;
     display: inline-block;
   }
-  #actividad-id .avatar {
+  .wrapper .avatar {
     background-image: url('../../destino/avatar-4.png');
   }
-  #actividad-id .avatar-2 {
+  .wrapper .avatar-2 {
     background-image: url('../../destino/avatar-1.png');
   }
-  #actividad-id .avatar-3 {
+  .wrapper .avatar-3 {
     background-image: url('../../destino/avatar-2.png');
   }
-  #actividad-id .avatar-4 {
+  .wrapper .avatar-4 {
     background-image: url('../../destino/avatar-3.png');
   }
-  #actividad-id .cabeza {
+  .wrapper .cabeza {
     width: 100%;
     position: fixed;
     text-align: center;
     z-index: 2;
     top: 0;
   }
-  #actividad-id .cabeza nav ul {
+  .wrapper .cabeza nav ul {
     border-bottom: 0;
     height: 58px;
     margin: 0px 1rem;
     font-size: 0;
     padding: 0;
   }
-  #actividad-id .cabeza nav ul li {
+  .wrapper .cabeza nav ul li {
     list-style: none;
     display: none;
     vertical-align: top;
@@ -1599,31 +1621,31 @@ body {
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
   }
-  #actividad-id .cabeza nav ul li.menu {
+  .wrapper .cabeza nav ul li.menu {
     display: inline-block;
     top: 0;
     padding: 0;
   }
-  #actividad-id .cabeza nav ul li.menu img {
+  .wrapper .cabeza nav ul li.menu img {
     width: 3rem;
     height: 3rem;
     position: relative;
     top: 0.3rem;
   }
-  #actividad-id .cabeza nav ul li.left {
+  .wrapper .cabeza nav ul li.left {
     display: inline-block;
     float: left;
     top: 0 !important;
     padding: 0;
     text-transform: uppercase;
   }
-  #actividad-id .cabeza nav ul li.left img {
+  .wrapper .cabeza nav ul li.left img {
     width: 3rem;
     height: 3rem;
     position: relative;
     top: 0.3rem;
   }
-  #actividad-id .cabeza nav ul li.right {
+  .wrapper .cabeza nav ul li.right {
     display: inline-block;
     float: right;
     padding: 0;
@@ -1631,7 +1653,7 @@ body {
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
   }
-  #actividad-id .mankifooter .copy {
+  .wrapper .mankifooter .copy {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
@@ -1642,15 +1664,15 @@ body {
     width: 100%;
     padding-left: 0;
   }
-  #actividad-id .mankifooter .manki {
+  .wrapper .mankifooter .manki {
     display: none;
   }
-  #actividad-id .mankifooter .log {
+  .wrapper .mankifooter .log {
     display: block;
     width: 100%;
     text-align: center;
   }
-  #actividad-id .mankifooter .log img {
+  .wrapper .mankifooter .log img {
     width: 35px;
     height: 35px;
   }
@@ -1665,20 +1687,60 @@ body {
     position: relative;
   }
 }
-@media only screen and (min-width: 501px) and (max-width: 1023px) {
-  #actividad-id .actividad-box .art {
+@media (min-width: 501px) and (max-width: 745px) {
+  .wrapper section.header .content {
+    width: 80%;
+  }
+  .wrapper section.header .content h1,
+  .wrapper section.header .content h5 {
+    padding-left: 4rem;
     width: 100%;
   }
-  #actividad-id #static {
+  .wrapper section.header .content h1 {
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+  .wrapper section.header .content h1 strong {
+    font-weight: bold;
+  }
+  .wrapper section.header .content h5 {
+    font-size: 1.15rem;
+    font-weight: 100;
+  }
+  .wrapper section.banner-back .content h1 {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .wrapper section.banner-back .content h4 {
+    width: 100%;
+  }
+  .wrapper section.banner-back .content select {
+    background: white;
+    width: 222px;
+    margin: .4rem 0;
+    margin-left: 3rem;
+    display: block;
+  }
+  .wrapper section.banner-back .content button {
+    margin: .4rem 0;
+    margin-left: 3rem;
+    display: block;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 1023px) {
+  .wrapper .actividad-box .art {
+    width: 100%;
+  }
+  .wrapper #static {
     width: 300px;
     margin-top: 3.6rem;
     margin-left: 1.5rem;
   }
-  #actividad-id #static img {
+  .wrapper #static img {
     width: 100%;
     height: auto;
   }
-  #actividad-id .tall {
+  .wrapper .tall {
     margin: 0.2rem;
     display: inline-block;
     height: 100%;
@@ -1686,21 +1748,52 @@ body {
     width: 173px !important;
     margin: 0.55rem;
   }
+  .wrapper #r1 {
+    display: block;
+    width: 100%;
+  }
+  .wrapper #r2 {
+    display: none;
+    width: 100%;
+  }
+  .wrapper .media {
+    display: block;
+  }
+  .wrapper .media .box-img .image-back {
+    width: 100%;
+    background-image: url(http://img04.deviantart.net/8225/i/2012/239/8/8/the_legend_of_korra___anime_icon_by_devill_dante-d5cngac.png);
+    height: 435px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .wrapper .actividad-container .table-actividad .actividad-row .lider-actividad {
+    height: 25rem;
+  }
+  .wrapper .actividad-container .table-actividad .actividad-row .package {
+    height: 20rem;
+  }
+  .wrapper .actividad-container .table-actividad .actividad-row .where {
+    height: 23rem;
+  }
+  .wrapper .actividad-container .table-actividad .actividad-row #table {
+    height: 315px;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1300px) {
-  #actividad-id .actividades .art {
+  .wrapper .actividades .art {
     width: 85%;
     height: 431px;
     display: inline-block;
   }
 }
 @media only screen and (min-width: 1370px) {
-  #actividad-id .boximage {
+  .wrapper .boximage {
     margin-top: 3.6rem;
     margin-left: 6rem;
     width: 388px;
   }
-  #actividad-id .actividad-container .actividad-row .boximage img {
+  .wrapper .actividad-container .actividad-row .boximage img {
     width: 380px;
     height: 435px;
   }
