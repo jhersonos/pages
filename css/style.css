@@ -553,7 +553,7 @@ body {
   display: inline-block;
 }
 .wrapper .actividad-container .table-actividad .actividad-row .text-actividad {
-  height: 266px;
+  height: auto;
   position: relative;
   margin-left: auto;
   width: 85%;
